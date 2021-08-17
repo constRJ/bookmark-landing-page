@@ -1,0 +1,20 @@
+/*
+ * Variables
+ */
+
+//  Custom Color Theme Variables
+$SoftBlue: hsl(231, 69%, 60%); // Primary
+$SoftRed: hsl(0, 94%, 66%);
+$Grayish-Blue: hsl(229, 8%, 60%); // Neutral
+$Very-Dark-Blue: hsl(229, 31%, 21%);
+
+//  Custom Fonts Variables
+$Main-Fonts: "Rubik", sans-serif;
+
+//  Custom Theming-Color Variables
+$bookmark-theme-colors: (
+  "softBlue": $SoftBlue,
+  "softRed": $SoftRed,
+  "grayishBlue": $Grayish-Blue,
+  "veryDarkBlue": $Very-Dark-Blue,
+);

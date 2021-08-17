@@ -1,0 +1,32 @@
+@import "./fonts";
+@import "./variable";
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+/*
+ * Custom Theming Mergin Colors
+ */
+$theme-colors: map-merge($bookmark-theme-colors, $theme-colors);
+
+/*
+ * Custom Theming Container Max-width
+ */
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1260px,
+  xxl: 1440px,
+);
+/*
+ * Custom Theming Fonts
+ */
+$input-btn-font-family: $Main-Fonts;
+
+/*
+ * Custom Theming Buttons
+ */
+$btn-border-radius: 50px;
+
+@import "~bootstrap/scss/bootstrap";
