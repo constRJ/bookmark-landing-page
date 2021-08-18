@@ -7,6 +7,9 @@ $SoftBlue: hsl(231, 69%, 60%); // Primary
 $SoftRed: hsl(0, 94%, 66%);
 $Grayish-Blue: hsl(229, 8%, 60%); // Neutral
 $Very-Dark-Blue: hsl(229, 31%, 21%);
+$black: #000;
+$white: #fff;
+$transparent: transparent;
 
 //  Custom Fonts Variables
 $Main-Fonts: "Rubik", sans-serif;
@@ -17,4 +20,11 @@ $bookmark-theme-colors: (
   "softRed": $SoftRed,
   "grayishBlue": $Grayish-Blue,
   "veryDarkBlue": $Very-Dark-Blue,
+);
+$bookmark-theme-nav-link-item: (
+  "nav-link": $white,
+  "nav-link-soft-red": $SoftRed,
+  "nav-link-soft-blue": $SoftBlue,
+  "nav-link-grayish": $Grayish-Blue,
+  "nav-link-dark-blue": $Very-Dark-Blue,
 );
