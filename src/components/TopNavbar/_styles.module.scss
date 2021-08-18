@@ -1,0 +1,21 @@
+@import "../../scss/variable";
+
+.navbar-nav-menu-container {
+  .nav-item {
+    &:last-child {
+      button {
+        background-color: $SoftRed;
+        color: $white;
+        border-radius: 5px;
+        border: 1px solid transparent;
+        transition: color, border, background-color, 0.2s ease-in-out;
+        &:hover {
+          background-color: transparent;
+          color: $SoftRed;
+          border: 1px solid $SoftRed;
+          outline: none;
+        }
+      }
+    }
+  }
+}
