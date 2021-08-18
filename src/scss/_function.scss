@@ -1,0 +1,9 @@
+@import "./variable";
+
+@function switch-color-based-on-background($value) {
+  @if (lightness($value) > 60) {
+    @return $black; // return black color
+  } @else {
+    @return $white; // return white color
+  }
+}
