@@ -23,10 +23,26 @@ $container-max-widths: (
  * Custom Theming Fonts
  */
 $input-btn-font-family: $Main-Fonts;
+$font-family-sans-serif: $Main-Fonts;
 
 /*
  * Custom Theming Buttons
  */
 $btn-border-radius: 50px;
 
-@import "~bootstrap/scss/bootstrap";
+/*
+ * Custom Nav Link
+ */
+
+//  Nav Link
+$nav-link-color: $black;
+$nav-link-hover-color: $SoftRed;
+$navbar-light-hover-color: $SoftRed;
+
+// Navbar Toggler Icon
+$navbar-light-toggler-border-color: rgba($white, 0) !important;
+$navbar-toggler-focus-width: none;
+
+$navbar-light-toggler-icon-bg-active: url("../assets/icons/icon-close.svg");
+
+@import "~bootstrap/scss/bootstrap.scss";
