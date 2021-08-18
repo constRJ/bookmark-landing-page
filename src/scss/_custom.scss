@@ -1,0 +1,25 @@
+@use "./variable";
+@use "./function";
+@use "./theme";
+@import "~bootstrap/scss/navbar";
+
+// @each $key, $value in $bookmark-theme-nav-link-item {
+//   .custom-#{key} {
+//     background-color: $value;
+//     border-radius: 5px;
+//     color: switch-color-based-on-background($value);
+//     border: 1px solid transparent;
+//   }
+// }
+.custom-navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+.navbar-light .custom-navbar-toggler-icon-active {
+  background-image: escape-svg($navbar-light-toggler-icon-bg-active);
+}
