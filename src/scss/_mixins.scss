@@ -1,2 +1,13 @@
 @import "./variable";
+@import "~bootstrap/scss/variables";
+
 // Custom Navbar Toggler
+@mixin max-breakpoint($sizes) {
+  @each $key, $value in $grid-breakpoints {
+    @if $sizes == $key {
+      @media screen and (max-width: $value) {
+        @content;
+      }
+    }
+  }
+}
