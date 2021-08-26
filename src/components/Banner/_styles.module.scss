@@ -29,7 +29,19 @@
     }
   }
   .banner-col-2 {
-    @include max-breakpoint(xxl) {
+    @include breakpoint(sm) {
+      padding: 50px 0 0;
+    }
+    @include breakpoint(md) {
+      padding: 50px 0 0;
+    }
+    @include breakpoint(lg) {
+      padding: 50px 0 0;
+    }
+    @include breakpoint(xl) {
+      padding: 135px 0 0 0;
+    }
+    @include breakpoint(xxl) {
       padding: 135px 0 0 0;
     }
     @include min-breakpoint(xxl) {
