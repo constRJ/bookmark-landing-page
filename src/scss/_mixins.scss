@@ -11,3 +11,12 @@
     }
   }
 }
+@mixin min-breakpoint($sizes) {
+  @each $key, $value in $grid-breakpoints {
+    @if $sizes == $key {
+      @media screen and (min-width: $value) {
+        @content;
+      }
+    }
+  }
+}

@@ -4,14 +4,20 @@
 @import "~bootstrap/scss/variables";
 @import "~bootstrap/scss/mixins";
 
-/*
- * Custom Theming Mergin Colors
- */
+// Body Color
+$body-color: $Grayish-Blue;
+
+// Headings
+$headings-color: $black;
+
+// Custom Theming Mergin Colors
 $theme-colors: map-merge($bookmark-theme-colors, $theme-colors);
 
-/*
- * Custom Theming Container Max-width
- */
+// Shadow
+$box-shadow-sm: 0 0.125rem 0.25rem rgba($black, 0.2);
+$box-shadow-lg: 0 1rem 3rem rgba($black, 0.2);
+
+// Custom Theming Container Max-width
 $container-max-widths: (
   sm: 540px,
   md: 720px,
@@ -19,20 +25,13 @@ $container-max-widths: (
   xl: 1260px,
   xxl: 1440px,
 );
-/*
- * Custom Theming Fonts
- */
+
+// Custom Theming Fonts
 $input-btn-font-family: $Main-Fonts;
 $font-family-sans-serif: $Main-Fonts;
 
-/*
- * Custom Theming Buttons
- */
-$btn-border-radius: 50px;
-
-/*
- * Custom Nav Link
- */
+// Custom Theming Buttons
+$btn-border-radius: 5px;
 
 //  Nav Link
 $nav-link-color: $black;
