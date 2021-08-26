@@ -1,0 +1,10 @@
+@import "../../scss/mixins";
+
+.section-features-container {
+  @include max-breakpoint(xxl) {
+    padding: 135px 0;
+  }
+  @include min-breakpoint(xxl) {
+    padding: 135px 0;
+  }
+}
